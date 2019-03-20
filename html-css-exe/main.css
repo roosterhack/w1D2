@@ -1,0 +1,97 @@
+ul li {
+  list-style: none;
+}
+
+.hero {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5em;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero img {
+  width: 200px;
+  height: auto;
+  border-radius: 100%;
+}
+
+.hero h1 {
+  font-size: 3.5em;
+}
+
+.hero p {
+  font-size: 1.5em;
+}
+
+.work ul {
+  margin: 0;
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.work li {
+  list-style: none;
+}
+
+.work li img {
+  width: 100%;
+  height: auto;
+}
+
+.contact {
+  background: #f1f1f1;
+  padding: 2em 5em;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.contact ul li {
+  margin-bottom: 20px;
+}
+
+.contact ul li label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact ul li input, .contact ul li textarea {
+  width: 100%;
+  border: 3px solid #262626;
+  border-radius: 5px;
+}
+
+.contact ul li input {
+  height: 50px;
+}
+
+footer {
+  padding: 2em 0;
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 2em;
+}
+
+footer Ul {
+  font-size: 3em;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer Ul li {
+  margin: 0 10px;
+}
+/*# sourceMappingURL=main.css.map */
